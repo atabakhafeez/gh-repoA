@@ -12,6 +12,6 @@ jobs:
         uses: peter-evans/repository-dispatch@v1
         with:
           token: ${{ secrets.PAT }}
-          repository: atabakhafeez/gb-repoB
+          repository: atabakhafeez/gh-repoB
           event-type: RepoAevent
   
