@@ -1,5 +1,5 @@
 name: RepoAworkflow
-on: [push]
+on: [push, workflow_dispatch]
 
 jobs:
   RepoAjobs:
